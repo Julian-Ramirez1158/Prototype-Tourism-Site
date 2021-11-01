@@ -1,0 +1,8 @@
+body {
+    font: 20px Montserrat, sans-serif;
+}
+
+.nav-link{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
