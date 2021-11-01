@@ -31,6 +31,10 @@ body {
     height: 250px;
 }
 
+.carousel {
+    margin-top: 20px;
+}
+
 .carousel-image {
     height: 600px;
     object-fit: cover;
