@@ -1,5 +1,6 @@
 body {
     font: 20px Montserrat, sans-serif;
+    min-width: 375px;
 }
 
 .nav-link{
@@ -35,9 +36,15 @@ body {
     margin-top: 20px;
 }
 
+/* add media query for carousel image height */
 .carousel-image {
     height: 600px;
     object-fit: cover;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
