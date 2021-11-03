@@ -1,6 +1,9 @@
 body {
     font: 20px Montserrat, sans-serif;
     min-width: 375px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .nav-link{
@@ -50,6 +53,16 @@ body {
 .TDTElement {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.entertainmentElement {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.entertainmentImage {
+    object-fit: cover;
+    height: 350px;
 }
 
 
