@@ -19,7 +19,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .banner-title {
@@ -27,6 +26,7 @@ body {
     color: white;    
 }
 
+/*maybe make cards full page width on smaller screen sizes?*/
 .card {
     margin: 20px;
 }
@@ -35,9 +35,6 @@ body {
     height: 250px;
 }
 
-.carousel {
-    margin-top: 20px;
-}
 
 /* add media query for carousel image height */
 .carousel-image {
@@ -45,12 +42,7 @@ body {
     object-fit: cover;
 }
 
-.footer {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.TDTElement {
+.contentElement {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -63,6 +55,15 @@ body {
 .entertainmentImage {
     object-fit: cover;
     height: 350px;
+}
+
+
+
+
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
