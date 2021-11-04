@@ -27,7 +27,7 @@ body {
 }
 
 /*maybe make cards full page width on smaller screen sizes?*/
-.card {
+.tile {
     margin: 20px;
 }
 
@@ -43,8 +43,8 @@ body {
 }
 
 .contentElement {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .entertainmentElement {
