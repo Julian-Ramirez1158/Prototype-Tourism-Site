@@ -15,7 +15,7 @@ body {
     background-image: url(../images/Banner2.jpg);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ body {
 }
 
 .card-img-top {
-    height: 250px;
+    height: 300px;
 }
 
 
@@ -54,7 +54,11 @@ body {
 
 .entertainmentImage {
     object-fit: cover;
-    height: 350px;
+    height: 400px;
+}
+
+.TTDText {
+    font-size: 30px;
 }
 
 
