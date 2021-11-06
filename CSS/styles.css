@@ -80,8 +80,9 @@ body {
     height: 400px;
 }
 
+/* reduce font-size at 500px*/
 .accordion-title {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
