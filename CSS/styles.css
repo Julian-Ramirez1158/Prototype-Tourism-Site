@@ -80,6 +80,12 @@ body {
     height: 400px;
 }
 
+.accordion-container {
+    background-image: url(../images/island2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* reduce font-size at 500px*/
 .accordion-title {
     font-size: 35px;
