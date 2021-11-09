@@ -27,9 +27,10 @@ body {
     color: white;    
 }
 
-/*maybe make cards full page width on smaller screen sizes? remove left and right margins at 840px*/
+/*maybe make cards full page width on smaller screen sizes? remove left and right margins at 500px*/
 .tile {
     margin: 20px;
+    width: 23rem;
 }
 
 /*add into the media query smaller paragraph font to 2em around 1200px*/
@@ -102,6 +103,49 @@ body {
     margin-right: 20px;
 }
 
+
+
+@media screen and (max-width: 525px) {
+
+    .banner-title {
+        font-size: 70px;
+    }
+
+    .contentText {
+        font-size: 20px;
+    }
+
+    .card-title {
+        font-size: 40px;
+    }
+
+    .tile {
+        width: 21rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .carousel-image {
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .hikingCard {
+        width: 22rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hikingImage {
+        height: 350px;
+    }
+
+    .accordion-title {
+        font-size: 30px;
+    }
+
+
+}
 
 
 
